@@ -92,16 +92,55 @@ body {
 
 .lista-redes {
     display: flex;
-    margin-left: 800px;
+    margin-left: 805px;
     top: 140px;
     position: relative;
 }
 
 .lista-redes li a img {
-   margin-right: 50px;
-  justify-content: center;
+    margin-right: 50px;
+    justify-content: center;
+  
 }
 
 .lista-redes li a img:hover {
     opacity: .5;
  }
+
+ /* Projetos */
+
+ .projetos {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 20px;
+     top: 350px;
+     position: relative;
+     margin-left: 200px;
+     margin-right: 200px;
+ }
+
+ .titulo-projetos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: #c255d8;
+    position: relative;
+    top: 350px;
+    
+ }
+
+ .projetos div {
+     background-color: #C96BDB;
+     padding: 130px;
+     border-radius: 10px;
+ }
+
+ .projetos div:hover {
+    background-color: #560769;
+    color: azure;
+    padding: 100px;
+    border-radius: 10px;
+}
+
